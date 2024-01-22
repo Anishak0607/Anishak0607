@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for i in range(item_name|length)%}
+   
+    <li>{{item_name[i|int]}} <a href="/deltodo/{{item_name[i|int]}}">delete</a> .<a href="/update/{{i}}">edit</a></li>
+   
+    {%endfor%}
+
+
+
+    <form action="/list" method="post">
+        <label>item</label>
+
+        <input type="text" name="item">
+
+        <input type="submit" value="submit">
+
+
+    </form>
+</body>
+</html>
