@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(24, 199, 215);
+    margin: 0   ;
+    text-align: center;
+}
+.qa{
+    color: rgb(232, 15, 181);
+    background-color: rgb(246, 240, 240);
+    font-style: inherit;
+    margin: auto;
+    
+}
+p{
+    color: rgb(26, 212, 29);
+    background-color: rgb(31, 39, 29);
+    width: 300px;
+    border: 3px dotted rgb(20, 23, 190);
+    font-style: inherit;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 50px;
+   
+}
+.para1{
+    color: rgb(25, 214, 167);
+    background-color: rgb(33, 33, 75);
+    border: 5px solid rgb(164, 28, 28);
+    margin: 100px 200px;
+  
+    width: 300px;
+    padding: 100px;
+}
+.para2{
+    color: rgb(214, 25, 116);
+    background-color: rgb(128, 179, 84);
+    border: 5px dotted rgb(181, 173, 28);
+    width: 100px;
+    margin: auto;
+    padding:10px;
+   
+}
+.para3{
+    color: rgb(159, 0, 216);
+    background-color: rgb(53, 13, 13);
+    border: 5px double rgb(243, 8, 47);
+    width: 200px;
+    height: 100px;
+    margin: 100px 200px 100px;
+    overflow-y: auto;
+    
+}

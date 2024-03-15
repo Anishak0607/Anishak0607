@@ -1,0 +1,48 @@
+.container{
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.word{
+    width: 300px;
+    height: auto;
+    margin-left: 50px;
+}
+.box_2{
+    background-color: rgb(24, 230, 17);
+   
+    width: 100%;
+    height: 300px;
+}
+.one{
+  
+    position: absolute;
+    bottom: 155px;
+    left: 350px;
+    font-size: larger;
+  
+
+}
+.two{
+    background-color: red;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-top: 25px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+}
+.a{
+    margin-top: 25px;
+    position: absolute;
+    right: 15px;
+    bottom: 27px;
+
+}
+b{
+    border: 2px solid rgb(8, 6, 6);
+   
+}

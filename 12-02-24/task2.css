@@ -1,0 +1,38 @@
+.a1{
+    border: 2px solid red;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.a2{
+    border: 2px solid red;
+    width: 150px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.a3{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.a4{
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    
+}
+.a5{
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}
+.a6{
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+  
+}

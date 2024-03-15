@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    
+}
+.left{
+    background-color: blue;
+    flex-basis: 1%;
+}
+.center{
+    flex-basis: 97%;
+    background-color:white;
+    padding: 10px;
+}
+.right{
+    background-color:brown;
+    flex-basis: 2%;
+}
+.center .head{
+    background-image: url(stock-photo-elegant-hot-pink-background-with-vintage-grunge-texture-old-red-and-pink-paper-light-and-dark-2151607633.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.head h1{
+    margin-left: 120px;
+}
+.section{
+    display: flex;
+}
+.one{
+    background-color:lightgrey;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul li{
+    background-color: lightblue;
+    padding: 4px;
+    margin:1px 0;
+    color: black;   
+}
+.navbar a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.navbar i{
+    margin-left: 10px;
+}
+
+.navbar ul{
+    
+    list-style: none ;
+}
+.link{
+    line-height: 1.5;
+}
+.link ul {
+    margin-left: 40px;
+}
+.link h2{
+    padding: 10px;      
+}
+
+.two{
+    flex-basis: 80%;
+    padding: 30px;
+    background-color:lightgrey;
+    line-height:2;
+    font-size: 10px;
+    
+}
+
+.two img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+}
+.two .child{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;  
+}
+.two h2{
+    margin-bottom:10px;
+    font-size: 25px;
+
+}
+.two .child p{
+    flex-basis: 68%;
+}

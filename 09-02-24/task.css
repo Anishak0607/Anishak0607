@@ -1,0 +1,29 @@
+.zx{
+    border: 5px solid red;
+    height: 600px;
+    margin: 100px 100px 100px 400px; 
+    width: 400px; 
+    background-color: rgb(240, 255, 127);
+   
+}
+h1{
+    margin-left: 15px;
+}
+
+
+img{
+    margin-left: 15px;
+    border: 5px solid rgb(225, 103, 16);
+    width: 300px;
+    height: 150px;
+}
+.aj{
+    border: 2px dashed rgb(251, 112, 12);
+    width: 310px;
+    overflow-y: scroll;
+    margin-left: 15px;
+    background-color: yellow;
+}
+b{
+    text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: #f5e8ba;
+    font-family:'Poppins', sans-serif;
+}
+
+#main{
+    margin: 100px auto;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(37, 40, 41);
+    border-radius: 2%;
+    border: none;
+}
+#main h2{
+    text-align: center;
+    padding: 3px;
+}
+input{
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 4px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+button{
+    padding: 4px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    background: rgb(147, 147, 240);
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+#todolist{
+    margin-top: 10px;
+    margin-left: 20px;
+}

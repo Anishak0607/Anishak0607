@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+.code_review{
+    border: 1px solid black;
+    width: 48%;
+    height: auto;
+
+}
+.inner-container{
+    margin-bottom: 10px;
+}

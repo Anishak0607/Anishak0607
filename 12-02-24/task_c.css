@@ -1,0 +1,76 @@
+
+.one{
+    border: 2px solid red;
+    margin-bottom:8px;
+    
+}
+h1{
+    font-family: 'Arial Narrow Bold';
+}
+.one h1{
+    text-align: center;
+    line-height: 50px;
+}
+.child{
+    display: inline-block;
+
+}
+.c{
+    border: 2px solid red;
+    width: 200px;
+    height: 300px ;
+    display: inline-block;
+    vertical-align: top;
+}
+.c h1{
+    text-align: center;
+    line-height: 258px; 
+}
+.b{
+    border: 2px solid red;
+    width: 857px;
+    height:50px;
+    display: inline-block; 
+    margin-left: 4px; 
+    margin-right: 5px;
+    
+}
+.b h1{
+    text-align: center;
+    line-height: 8px;
+}
+.d{
+    border: 2px solid red;
+    width: 857px;
+    height:240px;
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 5px;
+
+}
+.d h1{
+    text-align: center;
+    line-height: 189px;
+}
+
+.e{
+    border: 2px solid red;
+    width: 200px;
+    height: 300px ;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1px;
+}
+.e h1{
+    text-align: center;
+    line-height: 258px; 
+}
+.three{
+    margin-top: 8px;
+    border: 2px solid red;
+    margin-bottom:8px;
+}
+.three h1{
+    text-align: center;
+    line-height: 50px;   
+}

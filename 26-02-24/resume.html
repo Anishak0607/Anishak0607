@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="resume.css"> -->
+    <script src="resume.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="register">
+                <div class="inner-container">
+                     <label for="">Title</label>
+                <input type="text" placeholder="Enter a title" onkeyup="gen(this,'title')"> <br><br><br><br>
+                </div>     
+                <div class="inner-container">
+                    <label for="">Name</label>
+                <input type="text" placeholder="Enter a name" onkeyup="gen(this,'name')"> <br><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">Email</label>
+                <input type="email" placeholder="Enter a email" onkeyup="gen(this,'email')"><br><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">Age</label>
+                <input type="number" placeholder="Enter a Age" onkeyup="gen(this,'age')" ><br><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">Contact</label>
+                <input type="text" placeholder="Enter a number" onkeyup="gen(this,'Contact')"><br><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">Declaration</label>
+                <input type="text" placeholder="Enter a declaration" onkeyup="gen(this,'declaration')" ><br><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">Experience</label>
+                <input type="text" placeholder="Enter a Experience" onkeyup="gen(this,'Experience')" ><br><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">skill </label>
+                    <input type="text" id=skills placeholder="Enter a skill">
+                    <button type="button" onclick="add('skill','skills')">add</button><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">language</label>
+                    <input type="text" id="lang" placeholder="Enter a language">
+                    <button type="button" onclick="add('language','lang')">add</button><br><br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">hobby</label>
+                    <input type="text" id="hobbies" placeholder="Enter a hobby">
+                    <button type="button" onclick="add('hobby','hobbies')">add</button><br><br><br>
+                </div>
+                <h2>personal details</h2>
+                <div class="inner-container">
+                    <label for="">Father name</label>
+                <input type="text" placeholder="Enter a father name" onkeyup="gen(this,'father_name', 'personal_details')" > <br><br>
+                </div>
+                <div class="inner-container">
+                    <label for="">mother name</label>
+                <input type="text" placeholder="Enter a mother name" onkeyup="gen(this,'mother_name', 'personal_details')" > 
+                </div>
+                <div class="education">
+                    <h2>education</h2>
+                    <div class="std">
+                        <label>SSLC</label> 
+                        <input type="text" placeholder="enter your ins name" onkeyup="gen(this,'education',false,0,'ins_name')"/><br><br>
+                        <input type="number" placeholder="enter your percentage" onkeyup="gen(this,'education',false,0,'percentage')"/><br><br>
+                        <input type="number" placeholder="enter your passsed year" onkeyup="gen(this,'education',false,0,'year')"/>
+            
+                    </div><br><br><br>
+                    <div class="std">
+                        <label>hsc</label>
+                        <input type="text" placeholder="enter your ins name" onkeyup="gen(this,'education',false,1,'ins_name')"/><br><br>
+                        <input type="number" placeholder="enter your percentage" onkeyup="gen(this,'education',false,1,'percentage')"/><br><br>
+                        <input type="number" placeholder="enter your passsed year" onkeyup="gen(this,'education',false,1,'year')"/> <br><br><br><br><br><br>
+                    </div> 
+                    <div class="std">
+                        <label>engineering</label> 
+                        <input type="text" placeholder="enter your ins name" onkeyup="gen(this,'education',false,2,'ins_name')"/><br><br>
+                        <input type="number" placeholder="enter your percentage" onkeyup="gen(this,'education',false,2,'percentage')"/><br><br>
+                        <input type="number" placeholder="enter your passsed year" onkeyup="gen(this,'education',false,2,'year')"/> <br><br>
+                    </div> <br><br><br>            
+                </div>
+                <div class="projects">
+                    <h2>projects</h2>
+                    <div class="project">
+                        <label>project 1</label> 
+                        <input type="text" placeholder="enter your project name" onkeyup="gen(this,'projects',false,0,'project name')"/>
+                        <input type="text" placeholder="enter your project details" onkeyup="gen(this,'projects',false,0,'project details')"/>
+                    </div><br><br><br>
+                    <div class="project">
+                        <label>project 2</label> 
+                        <input type="text" placeholder="enter your project name" onkeyup="gen(this,'projects',false,1,'project_name')"/>
+                        <input type="text" placeholder="enter your project details" onkeyup="gen(this,'projects',false,1,'project_details')"/>    
+                    </div><br><br><br>
+                </div>
+                <div class="experience">
+                    <h2>experience</h2>
+                    <div class="edu">
+                        <label>experience 1</label> 
+                        <input type="text" placeholder="enter your companay name" onkeyup="gen(this,'experience',false,0,'companay_name')"/>
+                        <input type="text" placeholder="enter your work details" onkeyup="gen(this,'experience',false,0,'work_details')"/>
+                        <input type="text" placeholder="enter your role" onkeyup="gen(this,'experience',false,0,'role')"/>
+                        <input type="number" placeholder="enter your working year" onkeyup="gen(this,'experience',false,0,'working_year')"/>
+                    </div><br><br>
+                    <div class="edu">
+                        <label>experience 2</label> 
+                        <input type="text" placeholder="enter your companay name" onkeyup="gen(this,'experience',false,1,'companay_name')"/>
+                        <input type="text" placeholder="enter your work details" onkeyup="gen(this,'experience',false,1,'work_details')"/>
+                        <input type="text" placeholder="enter your role" onkeyup="gen(this,'experience',false,1,'role')"/>
+                        <input type="number" placeholder="enter your working year" onkeyup="gen(this,'experience',false,1,'working_year')"/>
+                    </div>            
+                </div><br><br><br>
+        </form>
+        <button type="button" onclick="save()">save</button>
+
+
+        
+
+       <div class="code_review">
+        <pre id="code"></pre>
+       </div>
+    </div>
+</body>
+</html>
